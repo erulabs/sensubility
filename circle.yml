@@ -1,0 +1,10 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+      - working
+      - seandon
+
+machine:
+  node:
+    version: iojs-v2.3.0

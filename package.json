@@ -1,0 +1,58 @@
+{
+  "name": "sensubility",
+  "version": "0.0.1",
+  "engines": ">= 2.3.0",
+  "description": "A web UI for Sensu at scale",
+  "main": "index.js",
+  "scripts": {
+    "test": "env NODE_ENV=test node node_modules/mocha/bin/_mocha --reporter spec",
+    "lint": "eslint gulpfile.js app.js index.js www/*.js test/*.js",
+    "build": "COMPRESS=true ./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erulabs/sensubility.git"
+  },
+  "author": "Seandon Mooy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erulabs/sensubility/issues"
+  },
+  "homepage": "https://github.com/erulabs/sensubility#readme",
+  "devDependencies": {
+    "better-console": "^0.2.4",
+    "connect-modrewrite": "^0.8.1",
+    "del": "^1.2.0",
+    "extend": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-chmod": "^1.2.0",
+    "gulp-clone": "^1.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-header": "^1.2.2",
+    "gulp-help": "^1.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-print": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-rtlcss": "^0.1.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "gulp-watch": "^4.2.4",
+    "mocha": "^2.2.5",
+    "require-dot-file": "^0.4.0",
+    "run-sequence": "^1.1.1",
+    "semantic-ui": "^1.12.3",
+    "should": "^7.0.1",
+    "webpack-stream": "^2.0.0"
+  }
+}
